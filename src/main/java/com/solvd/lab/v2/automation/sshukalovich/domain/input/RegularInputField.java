@@ -11,8 +11,8 @@ public final class RegularInputField extends BaseUIComponent implements InputFie
     private int width;
     private int height;
 
-    public RegularInputField(int color, Point coordinates, String text, int width, int height) {
-        super(color, coordinates, text);
+    public RegularInputField(Long id, int color, Point coordinates, String text, int width, int height) {
+        super(id, color, coordinates, text);
         this.width = width;
         this.height = height;
     }

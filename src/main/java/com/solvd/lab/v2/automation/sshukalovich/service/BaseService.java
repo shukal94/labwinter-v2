@@ -12,6 +12,7 @@ public abstract class BaseService {
     protected static final Map<String, ButtonDAO> BUTTON_DAOS = Map.of(
             "MOCK", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.mock.ButtonDAOImpl(),
             "OBJ", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.clasz.ButtonDAOImpl(),
-            "SQL", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.sql.ButtonDAOImplSQl()
+            "SQL", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.sql.ButtonDAOImplSQl(),
+            "XML", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.xml.ButtonDAOImpl()
     );
 }
