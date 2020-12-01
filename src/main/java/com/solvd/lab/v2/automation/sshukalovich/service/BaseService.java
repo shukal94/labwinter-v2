@@ -13,6 +13,7 @@ public abstract class BaseService {
             "MOCK", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.mock.ButtonDAOImpl(),
             "OBJ", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.clasz.ButtonDAOImpl(),
             "SQL", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.sql.ButtonDAOImplSQl(),
-            "XML", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.xml.ButtonDAOImpl()
+            "XML", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.xml.ButtonDAOImpl(),
+            "JSON", new com.solvd.lab.v2.automation.sshukalovich.dao.impl.json.ButtonDAOImpl()
     );
 }
