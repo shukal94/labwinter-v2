@@ -12,10 +12,13 @@ public class Runner {
 
 
 
-        Button b = new RegularButton(1L, 1, new Point(3, 4), "hi", 3, 5);
+        Button b = new RegularButton(1L, 1, null, "hi", 3, 5);
 
        // Button c = ButtonService.create(new RegularButton(1, new Point(3, 4), "hi", 3, 5));
 
+        ButtonService.create(b);
+
+        b.setCoordinates(new Point(4, 7));
         ButtonService.create(b);
         Button d = ButtonService.getById(4L);
         System.out.println("");
